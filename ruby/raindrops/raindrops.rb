@@ -4,10 +4,6 @@ end
 
 class Raindrops
   def self.convert(number)
-    factor_hash = {3=>"Pling",
-                   5=>"Plang",
-                   7=>"Plong"
-                  }
     sound_byte = ''
     if (number%3 == 0)
       sound_byte += 'Pling'
